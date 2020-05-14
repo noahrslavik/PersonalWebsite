@@ -1,0 +1,163 @@
+ul.nav {
+list-style-type: none;
+margin: 0;
+padding: 2px;
+overflow: hidden;
+background-color: #333;
+}
+
+li.left {
+float: left;
+}
+
+li.right {
+float: right;
+}
+
+li a.nav {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (red) on hover */
+li a:hover {
+background-color:#9277AC;
+}
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+color:#9277AC;
+}
+h1.center{
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color:#9277AC;
+}
+
+h2{
+color:#9277AC;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.white{
+color:#9277AC;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.center{
+text-align:center;
+color:#9277AC;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+color:black;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+hr{
+style="border-color:gray;background-color:black;height:3mm"
+}
+p{
+font-family: Arial, Helvetica, sans-serif;
+			padding:5px;
+			text-align:left;
+color:#351456";
+}
+
+ul{
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+color:#351456";
+}
+li {
+color: black;
+text-align: left;
+}
+table.sixHunderWidthBlackLine{
+width: 100%;
+table-layout:auto;
+border-collapse:collapse;
+}
+td.thirtyThree{
+
+border: 2px solid black;
+border-collapse: collapse;
+width:33%;
+padding:5px;
+text-align:center;
+vertical-align:center;
+border-color:#FFECAA;
+}
+
+td.sixtySix{
+border: 2px solid black;
+border-collapse:collapse;
+width:66%;
+text-align:center;
+vertical-align:center;
+border-color:#FFECAA;
+}
+
+body, html {
+  height: 100%;
+}
+body.blackbg{
+	background-color: black;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("sapace.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 95%;
+  width: 93%;
+  text-align: right;
+}
+
+.caption span.border {	
+  padding: 10px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+}
+
+li a.port{
+width : 25%;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+
+
